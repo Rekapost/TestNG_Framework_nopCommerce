@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="22231" started-at="2023-04-10T11:05:59 CDT" finished-at="2023-04-10T11:06:22 CDT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="22231" started-at="2023-04-10T11:05:59 CDT" finished-at="2023-04-10T11:06:22 CDT">
+      <class name="testCases.TestCase">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TestCase@2f8f5f62]" name="setup" is-config="true" duration-ms="14746" started-at="2023-04-10T11:06:01 CDT" finished-at="2023-04-10T11:06:15 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestCase()[pri:0, instance:testCases.TestCase@2f8f5f62]" name="loginTestCase" duration-ms="5921" started-at="2023-04-10T11:06:16 CDT" finished-at="2023-04-10T11:06:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TestCase@2f8f5f62]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-04-10T11:06:22 CDT" finished-at="2023-04-10T11:06:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
